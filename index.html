@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ShopNow - Buy stylish gadgets like headphones, watches, and more." />
+  <meta property="og:title" content="ShopNow - Stylish Tech Gadgets" />
+  <meta property="og:description" content="Buy headphones, smart watches, and more at great prices." />
+  <meta property="og:image" content="banner3.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="author" content="Aman Anuraj" />
+  <title>ShopNow - Home</title>
+  <link rel="icon" href="favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <button id="toggle-dark">Toggle Dark Mode</button>
+  <div class="owner-name">Aman Anuraj</div>
+
+  <header>
+    <h1>ShopNow</h1>
+    <p>Your one-stop shop for everything you love!</p>
+  </header>
+
+  <nav>
+    <a href="home-details.html" target="_blank">Home</a>
+    <a href="#about">About</a>
+    <a href="products.html" target="_blank">Products</a>
+    <a href="contact.html" target="_blank">Contact</a>
+  </nav>
+
+  <main>
+    <img src="banner3.jpg" alt="Banner showing tech gadgets available at ShopNow" class="banner" loading="lazy" />
+
+    <section id="about" class="container">
+      <h2>About ShopNow</h2>
+      <p style="max-width: 800px; margin: 1rem auto;">
+        Welcome to <strong>ShopNow</strong>, your ultimate destination for stylish and affordable tech gadgets.
+        Whether you're looking for high-quality headphones, smartwatches, or everyday accessories like wireless mice,
+        we've got something for every tech lover. At ShopNow, we combine performance, design, and value to give you the
+        best online shopping experience. Trusted by hundreds of happy customers, our mission is to bring innovative gadgets
+        right to your doorstep.
+      </p>
+    </section>
+
+    <div class="container">
+      <h2>Featured Products</h2>
+      <div class="products">
+
+        <div class="product">
+          <img src="headphone.jpg" alt="Black over-ear headphones with sleek design" loading="lazy" />
+          <h3>Stylish Headphones</h3>
+          <p class="rating">⭐⭐⭐⭐☆ (124)</p>
+          <p><span class="old-price">$79.99</span> <span class="price">$59.99</span></p>
+          <a href="headphone.html" target="_blank" aria-label="Buy Stylish Headphones">
+            <button>Buy Now</button>
+          </a>
+        </div>
+
+        <div class="product">
+          <img src="smart-watch.jpg" alt="Smart Watch with touchscreen and fitness tracking features" loading="lazy" />
+          <h3>Smart Watch</h3>
+          <p class="rating">⭐⭐⭐⭐⭐ (201)</p>
+          <p><span class="old-price">$149.99</span> <span class="price">$129.99</span></p>
+          <a href="smart-watch.html" target="_blank" aria-label="Buy Smart Watch">
+            <button>Buy Now</button>
+          </a>
+        </div>
+
+        <div class="product">
+          <img src="wireless-mouse.jpg" alt="Ergonomic wireless mouse for comfortable use" loading="lazy" />
+          <h3>Wireless Mouse</h3>
+          <p class="rating">⭐⭐⭐⭐☆ (88)</p>
+          <p><span class="old-price">$29.99</span> <span class="price">$24.99</span></p>
+          <a href="wireless-mouse.html" target="_blank" aria-label="Buy Wireless Mouse">
+            <button>Buy Now</button>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ShopNow. All rights reserved.</p>
+    <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms</a></p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.getElementById('toggle-dark');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+</body>
+</html>

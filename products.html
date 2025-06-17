@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore all our tech gadgets in detail - ShopNow Products" />
+  <meta name="author" content="Aman Anuraj" />
+  <title>ShopNow - Product Details</title>
+  <link rel="icon" href="favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background-color: #fff;
+      color: #333;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .container {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #0072ff;
+      margin-bottom: 1rem;
+    }
+
+    .product-detail {
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .product-detail img {
+      width: 300px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .product-info {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .product-info h3 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+
+    .price {
+      font-weight: bold;
+      color: green;
+    }
+
+    .old-price {
+      text-decoration: line-through;
+      color: #999;
+      margin-left: 0.5rem;
+    }
+
+    .rating {
+      color: #ff9800;
+      margin: 0.5rem 0;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    footer a {
+      color: #ddd;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .product-detail {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .product-detail img {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>ShopNow - Product Details</h1>
+    <p>Learn more about our best-selling tech gadgets</p>
+  </header>
+
+  <div class="container">
+
+    <div class="product-detail">
+      <img src="headphone.jpg" alt="Stylish black over-ear headphones">
+      <div class="product-info">
+        <h3>Stylish Headphones</h3>
+        <p class="rating">⭐⭐⭐⭐☆ (124 reviews)</p>
+        <p><span class="price">$59.99</span><span class="old-price">$79.99</span></p>
+        <p>Experience superior sound quality with these sleek over-ear headphones. Designed for comfort and durability, they are perfect for music lovers and professionals alike.</p>
+      </div>
+    </div>
+
+    <div class="product-detail">
+      <img src="smart-watch.jpg" alt="Smart Watch with touchscreen and fitness tracking features">
+      <div class="product-info">
+        <h3>Smart Watch</h3>
+        <p class="rating">⭐⭐⭐⭐⭐ (201 reviews)</p>
+        <p><span class="price">$129.99</span><span class="old-price">$149.99</span></p>
+        <p>Stay connected and track your fitness with our latest smart watch. Features include heart rate monitoring, step tracking, call alerts, and more – all in a stylish, waterproof design.</p>
+      </div>
+    </div>
+
+    <div class="product-detail">
+      <img src="wireless-mouse.jpg" alt="Ergonomic wireless mouse for everyday use">
+      <div class="product-info">
+        <h3>Wireless Mouse</h3>
+        <p class="rating">⭐⭐⭐⭐☆ (88 reviews)</p>
+        <p><span class="price">$24.99</span><span class="old-price">$29.99</span></p>
+        <p>Enhance your productivity with our ergonomic wireless mouse. Designed for smooth tracking and all-day comfort, it’s the perfect addition to your workspace.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 ShopNow. All rights reserved.</p>
+    <p><a href="home-details.html">Home</a> | <a href="contact.html">Contact</a></p>
+  </footer>
+</body>
+</html>

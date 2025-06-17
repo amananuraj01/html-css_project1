@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Details - ShopNow</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .product-details {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      background: #fff;
+      border-radius: 10px;
+      padding: 2rem;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-details img {
+      max-width: 400px;
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .info {
+      flex: 1;
+    }
+
+    .price {
+      font-size: 1.5rem;
+      color: green;
+      font-weight: bold;
+      margin: 1rem 0;
+    }
+
+    .old-price {
+      text-decoration: line-through;
+      color: gray;
+      margin-left: 1rem;
+    }
+
+    .rating {
+      color: #ff9800;
+      font-size: 1.2rem;
+    }
+
+    button {
+      padding: 0.8rem 2rem;
+      background-color: #1a1a1a;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #333;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      padding: 1rem;
+      background-color: #1a1a1a;
+      color: white;
+    }
+
+    @media (max-width: 768px) {
+      .product-details {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .info {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Stylish Headphones</h1>
+    <div class="product-details">
+      <img src="headphone.jpg" alt="Stylish Headphones" />
+      <div class="info">
+        <p class="rating">⭐⭐⭐⭐☆ (124 reviews)</p>
+        <p class="price">$59.99 <span class="old-price">$79.99</span></p>
+        <p>
+          Experience immersive sound like never before with our <strong>Stylish Headphones</strong>. With cushioned ear pads, premium drivers, and wireless connectivity, these headphones offer the perfect blend of comfort and performance.
+        </p>
+        <p>
+          Whether you're working, gaming, or relaxing, enjoy crystal-clear audio, deep bass, and up to 30 hours of battery life. It's your sound, redefined.
+        </p>
+        <button onclick="alert('Thank you for your interest! Checkout feature coming soon.')">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 ShopNow. All rights reserved.
+  </footer>
+</body>
+</html>
