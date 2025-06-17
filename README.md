@@ -60,3 +60,17 @@ Name: Aman Anuraj
 **Conclusion:**
 
 This HTML program demonstrates a modern, structured, and accessible approach to building a basic e-commerce homepage. It lays a strong foundation for expanding the website into a full-fledged online store by integrating dynamic content, databases, and shopping cart features in the future.
+
+![Screenshot 2025-06-17 172755](https://github.com/user-attachments/assets/f2e4bcba-ebcc-48ec-a1f5-4431fae959e1)
+![Screenshot 2025-06-17 172815](https://github.com/user-attachments/assets/12cd9ef0-9b2e-4d1b-b26b-17a350ab8e88)
+![Screenshot 2025-06-17 172859](https://github.com/user-attachments/assets/c4d5894a-aa25-40ad-8ff5-2e5ad9fc3cb0)
+![Screenshot 2025-06-17 172922](https://github.com/user-attachments/assets/ee4c3a36-f1f7-445f-a593-4c6410456f12)
+![Screenshot 2025-06-17 172948](https://github.com/user-attachments/assets/765b43a3-7b91-4d45-9aba-3021acf11d1b)
+![Screenshot 2025-06-17 173018](https://github.com/user-attachments/assets/35b192b6-de32-49e8-a6fd-b23ceff3a112)
+
+
+
+
+
+
+
